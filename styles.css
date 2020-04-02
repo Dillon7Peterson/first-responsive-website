@@ -1,4 +1,30 @@
 body{
-    background-color: red;
+   display: grid;
+   grid-template-rows: 50% 50%;
 
 }
+header{
+    border: 10px solid red;
+    display: grid;
+    grid-row: 1 / 2;
+
+}
+main{
+    border: 15px solid green;
+    display: grid;
+    grid-row: 2 / 3;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 50% 50%;
+    
+
+}
+section{
+    border: 20px solid blue;
+    display: grid;
+    grid-row: 1 / 5;
+}
+/*div{
+    background-color: cadetblue;
+    display: grid;
+    grid-row: 2 / 3;
+}*/
